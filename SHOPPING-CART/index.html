@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/css-file.css">
+      <link rel="icon" href="https://img.icons8.com/material-sharp/24/000000/favorite-cart.png">
+    <title>SHOPPING CART | ASSIGNMENT</title>
+  </head>
+  <body>
+  	<div class="container-fluid">
+   	<nav class="navbar navbar-expand-lg navbar-light">
+  <a id="logo" class="navbar-brand" href="https://shopping-cart-assignment-harshita-singh.netlify.app/">NEXLINE</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="https://shopping-cart-assignment-harshita-singh.netlify.app/">New In</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://shopping-cart-assignment-harshita-singh.netlify.app/">Men</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="https://shopping-cart-assignment-harshita-singh.netlify.app/">Women</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="https://shopping-cart-assignment-harshita-singh.netlify.app/">Kids</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="https://shopping-cart-assignment-harshita-singh.netlify.app/">Beauty</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="https://shopping-cart-assignment-harshita-singh.netlify.app/">Sale</a>
+      </li>
+    </ul>
+     <form class="form-inline my-2 my-lg-0 mr-5">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+  <div class="row">
+    <div id="col-1" class="col text-center">
+      FREE NEXT DAY DELIVERY
+    </div>
+    <div id="col-2" class="col text-center">
+   SALE NOW UPTO 50%
+    </div>
+    <div id="col-3" class="col text-center">
+ FREE RETURNS TO STORE
+    </div>
+  </div>
+<div class="container my-5">
+	<p class="cart-head">SHOPPING CART</p>
+<hr>
+<div class="row my-5">
+    <div class="col text-right product item-list"><img class="img-fluid" src="img/download.jpeg"></div>
+    <div class="col product item-list"><span>POLO Men T-Shirt</span><br>COLOR: <span>Black</span><br>SIZE: <span>L</span></div>
+    <div class="col product item-list"><input type="number" id="quantity" name="quantity" min="1" max="5" value="1"></div>
+   <div class="col product item-list"><span>Rs.&nbsp 1399/-</span></div>
+  </div>
+  <div class="row my-5">
+    <div class="col text-right product item-list"><img class="img-fluid" src="img/download 2.jpeg"></div>
+    <div class="col product item-list"><span>RARE Stripe Shirt</span><br>COLOR: <span>White</span><br>SIZE: <span>L</span></div>
+    <div class="col product item-list"><input type="number" id="quantity" name="quantity" min="1" max="5" value="1"></div>
+    <div class="col product item-list"><span>Rs.&nbsp 2999/-</span></div>
+  </div>
+  <div class="order">
+<span class="cart-head my-5">ORDER SUMMARY</span>
+<hr>
+<div class="row">
+<div class="col"><p><span>ITEMS</span>:&nbsp 2</p></div>
+<div class="col"><p><span>Rs. &nbsp 4398/-</span></div>
+</div>
+<p><span>SHIPPING:</span> &nbsp <p id="charge">Standard Delivery- &nbsp <span>Rs. &nbsp 120/-</span></p></p>
+<hr>
+<div class="row">
+<div class="col"><span>SUB-TOTAL</span></div>
+<div class="col"><p><span>Rs. &nbsp 4518/-</span></div>
+</div>
+<div class="row my-4">
+<div class="col-sm"><button class="checkout btn btn-outline-dark my-2 my-sm-0">Checkout</button></div>
+<div class="col-sm"><a class="continue" href="https://shopping-cart-assignment-harshita-singh.netlify.app/">Continue Shopping</a></div>
+</div>
+ </div>
+
+<footer class="my-5">
+	<div class="row">
+		<div class="col-sm text-center"><p id="footer-text">Sign up to our Newsletter and you'll get<br> weekly offers sent to your e-mail. </p></div>
+		<div class="col-sm text-center"> <input type="email" id="email" name="email" placeholder="Enter e-mail">
+     <button id="footer-btn" class="btn btn-outline-dark my-2 my-sm-0" type="submit">Submit</button></div>
+	</div>
+	<hr>
+	<p class="text-center my-3">&copy Nexline </p>
+</footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  </body>
+</html>

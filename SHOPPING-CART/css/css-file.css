@@ -1,0 +1,83 @@
+body{
+  background-color: #ffffff;
+}
+nav{
+  background-color: white;
+}
+#logo{
+  color: black;
+  font-weight: bold;
+}
+#nav-1{
+  background-color: black;
+}
+#nav-1-name{
+  color: white;
+  font-size: 12px;
+}
+#col-1{
+background-color: #cccccc;
+padding: 5px;
+font-size: 13px;
+}
+#col-2{
+background-color: #99e6ff;
+padding: 5px;
+font-size: 13px;
+}
+#col-3{
+background-color: #cccccc;
+padding: 5px;
+font-size: 13px;
+}
+.nav-link{
+  font-size: 12px;
+}
+.cart-head{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+img{
+  width: 100px;
+
+}
+span{
+  font-weight: bold;
+}
+.item-list{
+  font-size: 14px;
+}
+.total{
+  background-color: #cccccc;
+}
+.checkout{
+  background-color: black;
+  padding: 5px 25px;
+  color: white;
+}
+.continue{
+    color: black;
+    text-decoration: underline;
+    font-size: 13px;
+}
+#charge{
+  font-size: 14px;
+}
+.order{
+  background-color: #cccccc;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+#footer-text{
+  font-size: 13px;
+}
+#footer-btn{
+  padding: 4px 8px 4px 8px;
+  position: relative;
+  top: -2px;
+}
+.btn{
+  background-color: black;
+  color: white;
+}
